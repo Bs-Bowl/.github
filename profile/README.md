@@ -1,15 +1,11 @@
 <div align="center">
 
-# 📖 Project — 가제
+# 📖 ONTI
 
-### 책을 쓰고 싶다는 마음이, 실제 한 권의 책이 될 때까지.
+### 당신의 이야기를 ON.
 
-어디서부터 시작해야 할지 모르는 사람과<br/>
-시작했지만 끝내지 못하는 사람을 위한 웹 기반 집필 서비스
-
-<br/>
-
-`🟡 Discovery / Problem Validation`
+흩어진 기록과 생각이 연결되고 정리되어
+한 권의 이야기로 완성되는 기록·출판 플랫폼
 
 </div>
 
@@ -17,12 +13,11 @@
 
 ## 우리가 푸는 문제
 
-책을 써보고 싶은 사람은 존재합니다.
-다만 한 권을 어떻게 기획하고 구성하며 지속적으로 써야 하는지 몰라
-시작하지 못하거나 중간에 포기합니다.
+기록하는 일은 어렵지 않지만, 쌓인 기록을 정리해 하나의 결과물로
+완성하는 일은 늘 막막합니다.
 
-우리는 이 긴 과정을 작은 단계로 나누어,
-사용자가 **자신의 글로** 한 권을 끝까지 완성하도록 돕습니다.
+우리는 그 과정을 작은 단계로 나누어,
+사용자가 **자신의 기록으로** 한 권을 끝까지 완성하도록 돕습니다.
 
 ## AI의 역할
 
@@ -33,31 +28,29 @@
 | ❌ | AI가 작가가 되는 서비스 |
 | ⭕ | AI가 **편집자** 역할을 하는 서비스 |
 
-방향 구체화, 목차 구성 보조, 생각을 끌어내는 질문,
-흐름 피드백, 중복 발견, 퇴고 보조.
+목차 제안, 맞춤법·중복·맥락 점검, 흐름 피드백.
+사용자의 문체를 바꾸거나 표현을 획일화하지 않습니다.
 
-## 핵심 가치
+## 서비스 흐름
 
-| | | |
-|:--|:--|:--|
-| **Start** | 막연한 생각을 실제 프로젝트로 | |
-| **Structure** | 한 권을 작은 Chapter 단위로 | |
-| **Continue** | 완성되어 가는 과정을 확인하며 | |
-| **Complete** | 흩어진 글이 아닌 한 권의 결과물로 | |
-
-## 현재 단계
-
-기능이 아직 확정되지 않았습니다.
-집필을 시도했던 사용자 **10명 인터뷰**를 통해
-핵심 문제 → 핵심 사용자 → MVP 순서로 정의하는 중입니다.
-
-📄 [전체 기획 문서 보기](https://github.com/Bs-Bowl/bs-bowl-web/blob/main/docs/PROJECT.md)
+| | | | | | |
+|:--|:--|:--|:--|:--|:--|
+| **Records** | **Structure** | **Write** | **Review** | **Design** | **Complete** |
+| 기록 모으기 | 목차 구조 만들기 | 챕터별 집필 | 맞춤법·중복·맥락 점검 | 판형·표지 결정 | PDF·실물책 완성 |
 
 ## Repositories
 
-| Repository | Description |
+| Repository | Description | Stack |
+|:--|:--|:--|
+| [onti-api](https://github.com/Bs-Bowl/onti-api) | 백엔드 API 서버 | Java 21, Spring Boot 3.x, PostgreSQL |
+| [onti-web](https://github.com/Bs-Bowl/onti-web) | 프론트엔드 | Next.js |
+
+## Team
+
+| 이름 | 역할 |
 |:--|:--|
-| [bs-bowl-web](https://github.com/Bs-Bowl/bs-bowl-web) | 서비스 웹 프론트엔드 |
+| jongheecode | Backend |
+|  | Frontend, Design |
 
 <br/>
 
