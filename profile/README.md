@@ -50,7 +50,7 @@
 | 이름 | 역할 |
 |:--|:--|
 | jongheecode | Backend |
-|  | Frontend, Design |
+|  | Frontend |
 
 <br/>
 
